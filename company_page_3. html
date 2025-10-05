@@ -2,7 +2,7 @@
 <html>
 <head>
     <title> "Our Products and Services" </title>
-    <style>
+   <style>
     ul {text-align: left; margin-left: 20px; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 20px; color: navy;}
     li {margin-bottom: 5px;}
 
@@ -45,8 +45,6 @@
 
 <img src = "https://www.shape.com/thmb/XhaeY6hfYXOUEmpvxZKjOi_-H5A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/running-longer-or-faster-31e97070bda14ffc8afdea52094504c7.jpg" alt="Woman Running" class="bottom-right-photo"
  
-
-
 <footer style="text-align:center; margin-top:50px; font-size:20px; color:black;">
     <p style="text-align:center; margin-top:20px; font-size:16px;">
         Have questions or comments?
