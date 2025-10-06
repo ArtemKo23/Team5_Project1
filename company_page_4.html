@@ -1,4 +1,143 @@
 
 <html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>FitVision — Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root{
+      --ink:#000000;
+      --blue-dark:#1E3A8A;
+      --blue-light:#ADD8E6;
+      --muted:#555555;
+    }
+
+    html,body{ margin:0; padding:0; }
+    body{
+      font-family:"Times New Roman", Times, serif;
+      color:var(--ink);
+      background:#fafafa;
+      line-height:1.6;
+    }
+    header,main,footer{ max-width:980px; margin:0 auto; padding:24px; }
+
+    h1,h2{
+      font-family:Arial, Helvetica, sans-serif;
+      color:var(--blue-dark);
+      margin:0 0 8px;
+      letter-spacing:.3px;
+    }
+    h1{ font-size:2rem; }
+    h2{ font-size:1.35rem; }
+
+    .callout{ font-size:1.125rem; }
+    .small-note{ font-size:.9rem; color:var(--muted); }
+
+    .highlight{ color:var(--blue-light); font-weight:bold; }
+
+    .card{
+      background:#fff; border:1px solid #e5e7eb; border-radius:12px;
+      padding:18px; margin:14px 0; box-shadow:0 1px 4px rgba(0,0,0,.04);
+    }
+
+    ul,ol{ padding-left:22px; }
+
+    figure{ margin:10px 0 6px; }
+    figure img{ width:100%; max-width:720px; border-radius:12px; display:block; }
+    figcaption{ font-style:italic; color:var(--muted); margin-top:4px; }
+
+    a{ color:var(--blue-dark); text-decoration:none; border-bottom:1px solid currentColor; }
+    a:hover{ opacity:.85; }
+
+    footer{ color:var(--muted); }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Our Services — Elevate Your Fitness Journey</h1>
+    <p class="callout">
+      <strong>Eloheh</strong> offers a powerful mobile app and flexible memberships
+      that turn daily habits into measurable progress. Stay motivated with
+      <span class="highlight">smart coaching nudges</span>, weekly insights, and community challenges.
+      Your data is <u>private by default</u> and presented in a clean, easy-to-use dashboard.
+    </p>
+  </header>
+
+  <main>
+    <section class="card" id="app">
+      <h2>Eloheh App</h2>
+      <figure>
+        <img src="fitnessdashboard.png" width="200"height="300">
+        <figcaption>Intuitive dashboard with <em>weekly summaries</em> and actionable tips.</figcaption>
+      </figure>
+
+      <h3>App Capabilities</h3>
+      <ul>
+        <li>Personalized goals that can adapt over time</li>
+        <li>Weekly trend reports and habit streaks</li>
+        <li>Profesionally guided programs for training and recovery</li>
+        <li>Monthly progress reviews &amp; challenge leaderboards</li>
+      </ul>
+
+      <h3>Our Promise:</h3>
+      <ol>
+        <li>Clarity: see where to focus next, not just totals</li>
+        <li>Motivation: earn badges, join seasonal challenges, compete with friends</li>
+        <li>Confidence: <u>privacy</u> settings and <u>transparent</u> controls</li>
+      </ol>
+
+    </section>
+
+    <section class="card" id="memberships">
+      <h2>Memberships</h2>
+      <p>
+        Choose the plan that fits <span class="highlight">your lifestyle</span>. All customers get free tracking in the app, and 
+        higher tiers unlock <em>coaching</em>, <em>advanced analytics</em>, and <em>exclusive challenges</em>.
+      </p>
+
+      <h3>Plans:</h3>
+      <ul>
+        <li><em>Basic</em>: progress cards, habit streaks, community access.</li>
+        <li><em>Premium</em>: deeper insights, recovery guidance, guided programs.</li>
+        <li><em>Elite</em>: 1-on-1 virtual coaching, custom training blocks
+        and guaranteed priority support with <u>24-hour coach response</u>.</li>
+      </ul>
+
+    </section>
+
+    <section class="card" id="resources">
+      <h2>Try out these Resources!</h2>
+      
+      <p>
+        Learn how activity guidelines map to daily goals:
+        <a href="https://www.cdc.gov/physicalactivity/basics/" target="_blank" rel="noopener">
+          CDC Physical Activity Basics
+        </a>.
+      </p>
+      
+      <p>
+        Kickstart your routine with our concise weekly planner and habit guide.
+        Included is a printable workout log, RPE scale, and recovery checklist.
+        <a href="fitvision_fitness_guide.pdf" download>
+          Download the Fitness Guide (PDF)
+        </a>
+      </p>
+      
+      <p>
+        Have questions?
+        <a href="mailto:support@eloheh.com"><strong>Email us!</strong></a>.
+      </p>
+      
+    </section>
+  </main>
+
+  <footer>
+    <script>document.write(document.lastModified);</script>
+  </footer>
+
+</body>
   
 </html>
